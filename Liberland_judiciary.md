@@ -6,8 +6,7 @@
 
 ## Project Overview :page_facing_up:
 
-Follow-up on Liberland Grant Application [pull request: <i>to be added</i>] 
-Introduction
+Follow-up on Liberland Grant Application [pull requesT: Create liberland #831; a623bb28f2c9ce9609bf46e0e5801cda6e55aa47] 
 
 ### Liberland Blockchain
 Liberland Blockchain is a layer 1 public blockchain owned by coin and token holders. The blockchain is funded and supported by Liberland, providing the first set of use cases. The codebase is a fork of Substrate/Polkadot, and the license is MIT, the same as Bitcoin. Liberland does not claim ownership of the blockchain or related materials.
