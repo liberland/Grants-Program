@@ -142,14 +142,25 @@ The Judge then makes a final Confirmation or Rejection. These decisions will mos
 To make these games more engaging, we could utilize the Complex Advisory Opinion and establish a group of on-chain Registrars who operate the Registry instead of the Ministry. These Registrars could even propose different opinions on what to inscribe, making the games about these matters more interesting.
 ### Ecosystem Fit
 
-Help us locate your project in the Polkadot/Substrate/Kusama landscape and what problems it tries to solve by answering each of these questions:
+- **Where and how does your project fit into the ecosystem?**
 
-- Where and how does your project fit into the ecosystem?
-- Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
-- What need(s) does your project meet?
-- Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
-  - If so, how is your project different?
-  - If not, are there similar projects in related ecosystems?
+The Liberland Blockchain project fits into the Polkadot/Substrate/Kusama ecosystem as a layer 1 public blockchain that is a fork of Substrate/Polkadot. The project aims to translate traditional dispute resolution and judiciary functionalities into the digital realm, thereby introducing a new layer of trust and security to blockchain transactions. The integration of a 'court as a smart contract oracle' will enable the execution of traditional contracts on-chain, thereby expanding the scope of on-chain business activity.
+
+Although we deploy the system on our blockchain, it is fully open source and, ultimately, chain agnostic in the sense that you can deploy and use it yourself, under your own unique circumstances. Or just bridge to us and use it as part of Liberland's system.
+
+- **Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?**
+
+The target audience for the Liberland Blockchain project includes developers, designers, and users of the Liberland Blockchain, as well as developers and users of other parachains, dapps, wallets, and UIs within the Polkadot/Substrate/Kusama ecosystem. The project also targets individuals and organizations interested in utilizing blockchain technology for dispute resolution and judiciary functionalities.
+
+- **What need(s) does your project meet?**
+
+The Liberland Blockchain project meets the need for a blockchain-compatible solution that translates traditional dispute resolution and judiciary functionalities into the digital realm. It provides a system that synergizes the virtues of centralized and decentralized models, allowing for the execution of traditional contracts on-chain and facilitating enforcement of traditional contract agreements. It also introduces a hybrid entity that is both central and decentralized, capable of interpreting intent behind actions within the blockchain and regulating transactions, especially in situations where malicious or bad faith intentions are identified.
+
+- **Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?**
+  - **If so, how is your project different?**
+  - **If not, are there similar projects in related ecosystems?**
+
+As of the time of writing, there are no known projects within the Substrate/Polkadot/Kusama ecosystem that offer the same combination of features as the Liberland Blockchain project. First off, we are the first country that runs its government (and judiciary) on the blockchain. But besides that, the unique aspect of this project is the integration of a 'court as a smart contract oracle' that enables the execution of traditional contracts on-chain and the introduction of a hybrid entity that is both central and decentralized, capable of interpreting intent behind actions within the blockchain. This makes the Liberland Blockchain project a unique and significant addition to the Polkadot/Substrate/Kusama ecosystem.
 
 ## Team :busts_in_silhouette:
 
