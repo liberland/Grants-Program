@@ -156,11 +156,13 @@ The target audience for the Liberland Blockchain project includes developers, de
 
 The Liberland Blockchain project meets the need for a blockchain-compatible solution that translates traditional dispute resolution and judiciary functionalities into the digital realm. It provides a system that synergizes the virtues of centralized and decentralized models, allowing for the execution of traditional contracts on-chain and facilitating enforcement of traditional contract agreements. It also introduces a hybrid entity that is both central and decentralized, capable of interpreting intent behind actions within the blockchain and regulating transactions, especially in situations where malicious or bad faith intentions are identified.
 
+In addition, but no less in importance, it is the judiciary of the country of Liberland, fulfiling one part of the liberlander ambition to attain statehood, namely, to be able to appoint judges and to resolve cases of those who wish to live under Liberland's jurisdiction.
+
 - **Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?**
   - **If so, how is your project different?**
   - **If not, are there similar projects in related ecosystems?**
 
-As of the time of writing, there are no known projects within the Substrate/Polkadot/Kusama ecosystem that offer the same combination of features as the Liberland Blockchain project. First off, we are the first country that runs its government (and judiciary) on the blockchain. But besides that, the unique aspect of this project is the integration of a 'court as a smart contract oracle' that enables the execution of traditional contracts on-chain and the introduction of a hybrid entity that is both central and decentralized, capable of interpreting intent behind actions within the blockchain. This makes the Liberland Blockchain project a unique and significant addition to the Polkadot/Substrate/Kusama ecosystem.
+As of the time of writing, there are no known projects within the Substrate/Polkadot/Kusama ecosystem that offer the same combination of features as the Liberland Blockchain project. First, we are the first country to run its government (and judiciary) on the blockchain. But besides that, the unique aspect of this project is the integration of a 'court as a smart contract oracle' that enables the execution of traditional contracts on-chain and the introduction of a hybrid entity that is both central and decentralized, capable of interpreting intent behind actions within the blockchain. The entire world of traditional contracts is currently barred entry into the blockchain world, and we are attempting to forge a key allowing that huge, majority part of the world economy to come into the Polkadot ecosystem.
 
 ## Team :busts_in_silhouette:
 
