@@ -20,6 +20,8 @@ This milestone now sets the stage for implementing the quintessential element of
 
 ### Overview
 
+#### Project Overview
+
 The Liberland Judiciary is designed to develop an on-chain system capable of acting on behalf of a party without their explicit permission in pre-approved ways with mutual consent given in advance.
 
 - Facilitate the integration of a 'court as a smart contract oracle', thereby enabling the execution of traditional, verbose contracts on-chain. This system allows for the imposition of sanctions as dictated by the applicable law and the contract itself in the event of a dispute.
@@ -31,6 +33,7 @@ The solution we propose introduces a hybrid entity, central yet decentralized, c
 
 This architecture enhances the breadth of on-chain business activity, facilitating enforcement of traditional contract agreements and enabling partial algorithmic execution. In effect, this approach instills confidence that transactions, whether off-chain or on-chain, offline or online, will be enforced. Additionally, it offers an authoritative entity to resolve any disputes arising from the obligations agreed upon by the parties involved.
 
+#### Project Ecosystem Fit
 The Liberland Blockchain solution will be a significant addition to the Polkadot ecosystem. By translating traditional dispute resolution and judiciary functionalities into the digital realm, it will introduce a new layer of trust and security to blockchain transactions. The integration of a 'court as a smart contract oracle' will enable the execution of traditional contracts on-chain, thereby expanding the scope of on-chain business activity. 
 
 Furthermore, the solution will provide a hybrid entity that is both central and decentralized, capable of interpreting intent behind actions within the blockchain. This will enhance the Polkadot ecosystem's ability to regulate transactions, especially in situations where malicious or bad faith intentions are identified. 
