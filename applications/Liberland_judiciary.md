@@ -205,9 +205,9 @@ If you've already started implementing your project or it is part of a larger re
 
 3. [**On-Chain DAO Governance and Decentralized Regulation**](https://www.ssrn.com/index.cfm/en/maxplancklawrps/max-planck-luxembourg-res/) by Max Planck Institute Luxembourg for Procedural Law.
 
-4. [**Cryptocurrency and the Family Courts**](https://financialremediesjournal.com/content/cryptocurrency-and-the-family-courts-some-international-experiences.4fc550f56143411ca515055b2ce2872d.htm) – Some International Experiences" by Financial Remedies Journal
+4. [**Cryptocurrency and the Family Courts - Some International Experiences**](https://financialremediesjournal.com/content/cryptocurrency-and-the-family-courts-some-international-experiences.4fc550f56143411ca515055b2ce2872d.htm) – by Financial Remedies Journal
 This article discusses how cryptocurrency is being dealt with in family court cases in England.,
-- **links to your research diary, blog posts, articles, forum discussions or open GitHub issues:** (development JIRA)[https://liberland.atlassian.net/jira/software/projects/BLOCKCHAIN/boards/2],
+- **links to your research diary, blog posts, articles, forum discussions or open GitHub issues:** [development JIRA](https://liberland.atlassian.net/jira/software/projects/BLOCKCHAIN/boards/2),
 - **contact with Web3 Foundation:** conversation with Seraya Takahashi from 26-07-2023 
 - previous interface iterations, such as mock-ups and wireframes.
 
