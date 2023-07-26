@@ -2,7 +2,7 @@
 
 - **Team Name:** Liberland Blockchain Team
 - **Payment Address:** fiat or, possibly, BTC
-- **[Level](https://github.com/w3f/Grants-Program/tree/master#level_slider-levels):** 3
+- **[Level](https://github.com/w3f/Grants-Program/tree/master#level_slider-levels):** 2
 
 ## Project Overview :page_facing_up:
 
@@ -199,28 +199,14 @@ Our team has extensive experience in developing blockchain solutions. We have be
 
 If you've already started implementing your project or it is part of a larger repository, please provide a link and a description of the code here. In any case, please provide some documentation on the research and other work you have conducted before applying. This could be:
 
-- links to improvement proposals or [RFPs](https://github.com/w3f/Grants-Program/tree/master/docs/RFPs) (requests for proposal),
 - **academic publications relevant to the problem:**
-1. (BLOCKCHAIN'able JUDICIARY: BLOCKCHAIN, ARTIFICIAL INTELLIGENCE, INTERNET OF THINGS and JUDICIAL SYSTEM (ONE))[https://www.amazon.com/BLOCKCHAINable-JUDICIARY-BLOCKCHAIN-ARTIFICIAL-INTELLIGENCE/dp/1703687477] by Ismail Mohammed; This book discusses how modern technology can be used to ease complications of legal process issues and procedures.
-2. (Stanford Journal of Blockchain Law & Policy)[https://stanford-jblp.pubpub.org/]: This journal publishes articles and essays related to blockchain law and policy. Some recent articles include:
+1. (**BLOCKCHAIN'able JUDICIARY: BLOCKCHAIN, ARTIFICIAL INTELLIGENCE, INTERNET OF THINGS and JUDICIAL SYSTEM (ONE)**)[https://www.amazon.com/BLOCKCHAINable-JUDICIARY-BLOCKCHAIN-ARTIFICIAL-INTELLIGENCE/dp/1703687477] by Ismail Mohammed; This book discusses how modern technology can be used to ease complications of legal process issues and procedures.
+2. (**Stanford Journal of Blockchain Law & Policy**)[https://stanford-jblp.pubpub.org/]: This journal publishes articles and essays related to blockchain law and policy. Some recent articles include:
 
-a) Online Arbitration for NFT and Blockchain-Related Disputes by the LLM (Compliance & Regulation) Programme at The University of Hong Kong, Faculty of Law.
+3. (**On-Chain DAO Governance and Decentralized Regulation**)[https://www.ssrn.com/index.cfm/en/maxplancklawrps/max-planck-luxembourg-res/] by Max Planck Institute Luxembourg for Procedural Law.
 
-b) Central Bank Digital Currencies: A Global Taxonomy" by a group of authors.
-
-c) On-Chain DAO Governance and Decentralized Regulation" by Max Planck Institute Luxembourg for Procedural Law.
-"Issues in Crypto Currency Fraud Claims – an update" by HHJ Pelling KC
-
-3. This speech discusses the issues related to crypto fraud claims.
-"Issues in crypto-currency fraud claims" by Judge Mark Pelling QC
-4
-. This speech discusses the use of smart contracts, blockchain, and distributed ledgers in crypto fraud claims.
-"When Might Blockchain Appear in Your Court?" by the National Cyber Security Centre
-5
-. This publication discusses the potential use of blockchain in court proceedings.
-"Cryptocurrency and the Family Courts – Some International Experiences" by Financial Remedies Journal
-6
-. This article discusses how cryptocurrency is being dealt with in family court cases in England.,
+4. (**Cryptocurrency and the Family Courts**)[https://financialremediesjournal.com/content/cryptocurrency-and-the-family-courts-some-international-experiences.4fc550f56143411ca515055b2ce2872d.htm] – Some International Experiences" by Financial Remedies Journal
+This article discusses how cryptocurrency is being dealt with in family court cases in England.,
 - **links to your research diary, blog posts, articles, forum discussions or open GitHub issues:** (development JIRA)[https://liberland.atlassian.net/jira/software/projects/BLOCKCHAIN/boards/2],
 - **contact with Web3 Foundation:** conversation with Seraya Takahashi from 26-07-2023 
 - previous interface iterations, such as mock-ups and wireframes.
