@@ -200,12 +200,12 @@ Our team has extensive experience in developing blockchain solutions. We have be
 If you've already started implementing your project or it is part of a larger repository, please provide a link and a description of the code here. In any case, please provide some documentation on the research and other work you have conducted before applying. This could be:
 
 - **academic publications relevant to the problem:**
-1. (**BLOCKCHAIN'able JUDICIARY: BLOCKCHAIN, ARTIFICIAL INTELLIGENCE, INTERNET OF THINGS and JUDICIAL SYSTEM (ONE)**)[https://www.amazon.com/BLOCKCHAINable-JUDICIARY-BLOCKCHAIN-ARTIFICIAL-INTELLIGENCE/dp/1703687477] by Ismail Mohammed; This book discusses how modern technology can be used to ease complications of legal process issues and procedures.
-2. (**Stanford Journal of Blockchain Law & Policy**)[https://stanford-jblp.pubpub.org/]: This journal publishes articles and essays related to blockchain law and policy. Some recent articles include:
+1. [**BLOCKCHAIN'able JUDICIARY: BLOCKCHAIN, ARTIFICIAL INTELLIGENCE, INTERNET OF THINGS and JUDICIAL SYSTEM (ONE)**](https://www.amazon.com/BLOCKCHAINable-JUDICIARY-BLOCKCHAIN-ARTIFICIAL-INTELLIGENCE/dp/1703687477) by Ismail Mohammed; This book discusses how modern technology can be used to ease complications of legal process issues and procedures.
+2. [**Stanford Journal of Blockchain Law & Policy**](https://stanford-jblp.pubpub.org/): This journal publishes articles and essays related to blockchain law and policy. Some recent articles include:
 
-3. (**On-Chain DAO Governance and Decentralized Regulation**)[https://www.ssrn.com/index.cfm/en/maxplancklawrps/max-planck-luxembourg-res/] by Max Planck Institute Luxembourg for Procedural Law.
+3. [**On-Chain DAO Governance and Decentralized Regulation**](https://www.ssrn.com/index.cfm/en/maxplancklawrps/max-planck-luxembourg-res/) by Max Planck Institute Luxembourg for Procedural Law.
 
-4. (**Cryptocurrency and the Family Courts**)[https://financialremediesjournal.com/content/cryptocurrency-and-the-family-courts-some-international-experiences.4fc550f56143411ca515055b2ce2872d.htm] – Some International Experiences" by Financial Remedies Journal
+4. [**Cryptocurrency and the Family Courts**](https://financialremediesjournal.com/content/cryptocurrency-and-the-family-courts-some-international-experiences.4fc550f56143411ca515055b2ce2872d.htm) – Some International Experiences" by Financial Remedies Journal
 This article discusses how cryptocurrency is being dealt with in family court cases in England.,
 - **links to your research diary, blog posts, articles, forum discussions or open GitHub issues:** (development JIRA)[https://liberland.atlassian.net/jira/software/projects/BLOCKCHAIN/boards/2],
 - **contact with Web3 Foundation:** conversation with Seraya Takahashi from 26-07-2023 
