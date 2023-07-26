@@ -168,50 +168,61 @@ As of the time of writing, there are no known projects within the Substrate/Polk
 
 ### Team members
 
-- Name of team leader
-- Names of team members
+- Dorian Stern-Vukotic, Senior Developer
+- Kacper Zuk, Senior Developer
 
 ### Contact
 
-- **Contact Name:** Full name of the contact person in your team
-- **Contact Email:** Contact email (e.g. john@duo.com)
-- **Website:** Your website
+- **Contact Name:** Dorian Štern Vukotić
+- **Contact Email:** [dorian.sternvukotic@gmail.com ]
+- **Website:** [Liberland](www.liberland.org)
 
 ### Legal Structure
 
-- **Registered Address:** Address of your registered legal entity, if available. Please keep it in a single line. (e.g. High Street 1, London LK1 234, UK)
-- **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
+- **Registered Address:** [3/F, Chinachem Tower, 34-37 Connaught Road Central, Hong Kong]
+- **Registered Legal Entity:** [Liberland Limited]
 
 ### Team's experience
 
-Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past. 
-
-If anyone on your team has applied for a grant at the Web3 Foundation previously, please list the name of the project and legal entity here.
+Our team has extensive experience in developing blockchain solutions. We have been working on the Liberland Blockchain, a layer 1 public blockchain owned by coin and token holders. The blockchain is funded and supported by Liberland, providing the first set of use cases. The codebase is a fork of Substrate/Polkadot, and the license is MIT, the same as Bitcoin. Liberland does not claim ownership of the blockchain or related materials.
 
 ### Team Code Repos
 
-- https://github.com/<your_organisation>/<project_1>
-- https://github.com/<your_organisation>/<project_2>
-
-Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
-
-- https://github.com/<team_member_1>
-- https://github.com/<team_member_2>
+- [Liberland GitHub](https://github.com/liberland/liberland)
 
 ### Team LinkedIn Profiles (if available)
 
-- https://www.linkedin.com/<person_1>
-- https://www.linkedin.com/<person_2>
-
+- [Dorian Stern-Vukotic](https://www.linkedin.com/in/djstern)
+- [Kacper Zuk](https://www.linkedin.com/in/kacperzuk/)
 
 ## Development Status :open_book:
 
 If you've already started implementing your project or it is part of a larger repository, please provide a link and a description of the code here. In any case, please provide some documentation on the research and other work you have conducted before applying. This could be:
 
 - links to improvement proposals or [RFPs](https://github.com/w3f/Grants-Program/tree/master/docs/RFPs) (requests for proposal),
-- academic publications relevant to the problem,
-- links to your research diary, blog posts, articles, forum discussions or open GitHub issues,
-- references to conversations you might have had related to this project with anyone from the Web3 Foundation,
+- **academic publications relevant to the problem:**
+1. (BLOCKCHAIN'able JUDICIARY: BLOCKCHAIN, ARTIFICIAL INTELLIGENCE, INTERNET OF THINGS and JUDICIAL SYSTEM (ONE))[https://www.amazon.com/BLOCKCHAINable-JUDICIARY-BLOCKCHAIN-ARTIFICIAL-INTELLIGENCE/dp/1703687477] by Ismail Mohammed; This book discusses how modern technology can be used to ease complications of legal process issues and procedures.
+2. (Stanford Journal of Blockchain Law & Policy)[https://stanford-jblp.pubpub.org/]: This journal publishes articles and essays related to blockchain law and policy. Some recent articles include:
+
+a) Online Arbitration for NFT and Blockchain-Related Disputes by the LLM (Compliance & Regulation) Programme at The University of Hong Kong, Faculty of Law.
+
+b) Central Bank Digital Currencies: A Global Taxonomy" by a group of authors.
+
+c) On-Chain DAO Governance and Decentralized Regulation" by Max Planck Institute Luxembourg for Procedural Law.
+"Issues in Crypto Currency Fraud Claims – an update" by HHJ Pelling KC
+
+3. This speech discusses the issues related to crypto fraud claims.
+"Issues in crypto-currency fraud claims" by Judge Mark Pelling QC
+4
+. This speech discusses the use of smart contracts, blockchain, and distributed ledgers in crypto fraud claims.
+"When Might Blockchain Appear in Your Court?" by the National Cyber Security Centre
+5
+. This publication discusses the potential use of blockchain in court proceedings.
+"Cryptocurrency and the Family Courts – Some International Experiences" by Financial Remedies Journal
+6
+. This article discusses how cryptocurrency is being dealt with in family court cases in England.,
+- **links to your research diary, blog posts, articles, forum discussions or open GitHub issues:** (development JIRA)[https://liberland.atlassian.net/jira/software/projects/BLOCKCHAIN/boards/2],
+- **contact with Web3 Foundation:** conversation with Seraya Takahashi from 26-07-2023 
 - previous interface iterations, such as mock-ups and wireframes.
 
 ## Development Roadmap :nut_and_bolt:
