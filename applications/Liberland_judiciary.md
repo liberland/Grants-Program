@@ -240,10 +240,10 @@ Below we provide an **example roadmap**. In the descriptions, it should be clear
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Article | We will publish an **article**/workshop that explains the functioning of the judiciary and its impact on the Polkadot environment |
-| 1. | Substrate module: Judiciary | We will create a Substrate module that will facilitate the adjudication of cases|
+| 1. | Substrate module: Judiciary | We will create a Substrate module that will facilitate the adjudication of cases under the Simple Process, e.g. when the parties agree on the Judge or the Judge selection method|
 | 2. | Substrate module: Escrow/Collateral | We will create an Escrow solution which will also be useable in the judiciary, as explained above |
-| 3. | Substrate module: Traditional Contracts | The Traditional Contracts Substrate module will enable users so turn traditional contracts into smart contracts by attaching a collateral to them and the algoritmic power of each party to click on "dispute" and activate the Judiciary module |
-| 4. | Substrate chain | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |
+| 3. | Substrate module: Traditional Contracts | The Traditional Contracts Substrate module will enable users to turn traditional contracts into smart contracts by attaching collateral to them and the algorithmic power of each party to click on "dispute" and activate the Judiciary module |
+| 4. | Substrate chain | Module Traditional Contracts will enable parties to agree to be adjudicated using the Judiciary Module, covering the court costs and the contract using the Escrow/Collateral module) |
 | 5. | Frontend| We will deliver a basic frontend to operate the new substrate modules |
 
 
@@ -259,10 +259,9 @@ Below we provide an **example roadmap**. In the descriptions, it should be clear
 | **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article**/workshop that explains the functioning of the judiciary and its impact on the Polkadot environment |
-| 1. | Substrate module: Judiciary | We will create a Substrate module that will facilitate the adjudication of cases|
-| 2. | Substrate module: Escrow/Collateral | We will create an Escrow solution which will also be useable in the judiciary, as explained above |
-| 3. | Substrate module: Traditional Contracts | The Traditional Contracts Substrate module will enable users so turn traditional contracts into smart contracts by attaching a collateral to them and the algoritmic power of each party to click on "dispute" and activate the Judiciary module |
+| 1. | Substrate module: Advanced Judiciary | We will create a Substrate module that will facilitate the adjudication of cases where the parties can't agree on anything more than having their case adjudicated in Liberland|
+| 2. | Substrate module: Judiciary Market | We will create a module that gathers on-chain data to facilitate the operation of the marketplace of judges |
+| 3. | Substrate module: Insurance | The Insurance Substrate module will enable users registered as insurers to pay collateral for others and to receive compensation based on a smart contract |
 | 4. | Substrate chain | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |
 | 5. | Frontend| We will deliver a basic frontend to operate the new substrate modules |
 | 6. | Smart contracts: ... | We will deliver a set of ink! smart contracts that will...
