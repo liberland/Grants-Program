@@ -179,8 +179,8 @@ As of the time of writing, there are no known projects within the Substrate/Polk
 
 ### Legal Structure
 
-- **Registered Address:** [3/F, Chinachem Tower, 34-37 Connaught Road Central, Hong Kong]
-- **Registered Legal Entity:** [Liberland Limited]
+- **Registered Address:** 3/F, Chinachem Tower, 34-37 Connaught Road Central, Hong Kong
+- **Registered Legal Entity:** Liberland Limited
 
 ### Team's experience
 
