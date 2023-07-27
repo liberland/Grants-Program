@@ -221,21 +221,21 @@ Below we provide an **example roadmap**. In the descriptions, it should be clear
 
 ### Overview
 
-- **Total Estimated Duration:** 3 months
+- **Total Estimated Duration:** 4 months
 - **Full-Time Equivalent (FTE):**  4 FTE
 - **Total Costs:** 30 000 USD.
 
-### Milestone 1 Example — Basic functionality
+### Milestone 1 Simple Process
 
-- **Estimated duration:** 1 month
+- **Estimated duration:** 2 months
 - **FTE:**  1,5
-- **Costs:** 8,000 USD
+- **Costs:** 15,000 USD
 
 > :exclamation: **The default deliverables 0a-0d below are mandatory for all milestones**, and deliverable 0e at least for the last one. 
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| **0a.** | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
+| **0a.** | License | MIT |
 | **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
@@ -250,9 +250,9 @@ Below we provide an **example roadmap**. In the descriptions, it should be clear
 
 ### Milestone 2 Example — Additional features
 
-- **Estimated Duration:** 1 month
+- **Estimated Duration:** 2 months
 - **FTE:**  1,5
-- **Costs:** 8,000 USD
+- **Costs:** 15,000 USD
 
 ...
 
