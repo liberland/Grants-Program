@@ -272,18 +272,12 @@ Please include here
 - We will also connect to 3rd party services, enabling the operation of the judiciary with their platforms
 - We are currently organizing our first Liberland Blockchain/ Polkadot conference.
 
-## Referral Program (optional) :moneybag: 
-
-You can find more information about the program [here](../README.md#moneybag-referral-program).
-- **Referrer:** Name of the Polkadot Ambassador or GitHub account of the Web3 Foundation grantee
-- **Payment Address:** BTC, Ethereum (USDC/DAI) or Polkadot/Kusama (USDT) payment address. Please also specify the currency. (e.g. 0x8920... (DAI))
-
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Grants Program?** Web3 Foundation Website / Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
+**How did you hear about the Grants Program?** Web3 Foundation Website
 
 Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
 
-- Work you have already done.
-- If there are any other teams who have already contributed (financially) to the project.
-- Previous grants you may have applied for.
+- **Work you have already done**: We have set up the Level 1 Liberland Blockchain, and have already received and utilized a grant from Web3 Foundation for it.
+- **Other teams**: We are grateful for the help of the [Neti Blockchain Development Company](https://neti-soft.com/) They have contributed greatly to the development and we expect them to remain with us for the development of the judiciary.
+- **Previous Grants**: Liberland Blockchain Level 2 Grant: accepted and paid out.
