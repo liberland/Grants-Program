@@ -213,12 +213,6 @@ This article discusses how cryptocurrency is being dealt with in family court ca
 
 ## Development Roadmap :nut_and_bolt:
 
-This section should break the development roadmap down into milestones and deliverables. To assist you in defining it, we have created a document with examples for some grant categories [here](../docs/Support%20Docs/grant_guidelines_per_category.md). Since these will be part of the agreement, it helps to describe _the functionality we should expect in as much detail as possible_, plus how we can verify and test that functionality. Whenever milestones are delivered, we refer to this document to ensure that everything has been delivered as expected.
-
-Below we provide an **example roadmap**. In the descriptions, it should be clear how your project is related to Substrate, Kusama or Polkadot. We _recommend_ that teams structure their roadmap as 1 milestone ≈ 1 month.
-
-> :exclamation: If any of your deliverables is based on somebody else's work, make sure you work and publish _under the terms of the license_ of the respective project and that you **highlight this fact in your milestone documentation** and in the source code if applicable! **Teams that submit others' work without attributing it will be immediately terminated.**
-
 ### Overview
 
 - **Total Estimated Duration:** 4 months
@@ -263,16 +257,20 @@ Below we provide an **example roadmap**. In the descriptions, it should be clear
 | 2. | Substrate module: Judiciary Market | We will create a module that gathers on-chain data to facilitate the operation of the marketplace of judges |
 | 3. | Substrate module: Insurance | The Insurance Substrate module will enable users registered as insurers to pay collateral for others and to receive compensation based on a smart contract |
 | 4. | Substrate chain | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |
-| 5. | Frontend| We will deliver a basic frontend to operate the new substrate modules |
-| 6. | Smart contracts: ... | We will deliver a set of ink! smart contracts that will...
+| 5. | Frontend| Judiciary Marketplace and Insurance frontend |
+| 6. | Smart contracts: ... | We will setup smart contract templates for judiciary and insurance contracts.
 
 
 ## Future Plans
 
 Please include here
 
-- how you intend to use, enhance, promote and support your project in the short term, and
-- the team's long-term plans and intentions in relation to it.
+- Liberland is a country that is currently establishing its control over the land.
+- This system will become the obligate judiciary for the country's citizens and anyone who want to do business with the country.
+- We are also setting up a system of promotion for the Liberland Blockchain
+- The judiciary will be a big part of that
+- We will also connect to 3rd party services, enabling the operation of the judiciary with their platforms
+- We are currently organizing our first Liberland Blockchain/ Polkadot conference.
 
 ## Referral Program (optional) :moneybag: 
 
