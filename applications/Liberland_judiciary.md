@@ -217,7 +217,6 @@ If you've already started implementing your project or it is part of a larger re
 This article discusses how cryptocurrency is being dealt with in family court cases in England.,
 - **links to your research diary, blog posts, articles, forum discussions or open GitHub issues:** [development JIRA](https://liberland.atlassian.net/jira/software/projects/BLOCKCHAIN/boards/2),
 - **contact with Web3 Foundation:** conversation with Seraya Takahashi from 26-07-2023 
-- previous interface iterations, such as mock-ups and wireframes.
 
 ## Development Roadmap :nut_and_bolt:
 
@@ -232,8 +231,6 @@ This article discusses how cryptocurrency is being dealt with in family court ca
 - **Estimated duration:** 2 months
 - **FTE:**  1,5
 - **Costs:** 15,000 USD
-
-> :exclamation: **The default deliverables 0a-0d below are mandatory for all milestones**, and deliverable 0e at least for the last one. 
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -271,8 +268,6 @@ This article discusses how cryptocurrency is being dealt with in family court ca
 
 ## Future Plans
 
-Please include here
-
 - Liberland is a country that is currently establishing its control over the land.
 - This system will become the obligate judiciary for the country's citizens and anyone who want to do business with the country.
 - We are also setting up a system of promotion for the Liberland Blockchain
@@ -283,8 +278,6 @@ Please include here
 ## Additional Information :heavy_plus_sign:
 
 **How did you hear about the Grants Program?** Web3 Foundation Website
-
-Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
 
 - **Work you have already done**: We have set up the Level 1 Liberland Blockchain, and have already received and utilized a grant from Web3 Foundation for it.
 - **Other teams**: We are grateful for the help of the [Neti Blockchain Development Company](https://neti-soft.com/) They have contributed greatly to the development and we expect them to remain with us for the development of the judiciary.
