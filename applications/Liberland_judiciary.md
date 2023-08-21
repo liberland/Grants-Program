@@ -6,15 +6,15 @@
 
 ## Project Overview :page_facing_up:
 
-Follow-up on Liberland Grant Application [pull requesT: Create liberland #831; a623bb28f2c9ce9609bf46e0e5801cda6e55aa47] 
+Follow-up on Liberland Grant Application [pull request: Create liberland #831; a623bb28f2c9ce9609bf46e0e5801cda6e55aa47] 
 
 ### Liberland Blockchain
 
-Our mission is to conceive a blockchain-compatible solution that translates traditional dispute resolution and judiciary functionalities into the digital realm. Our vision includes a system that synergizes the virtues of centralized and decentralized models.
+Our mission is to conceive a blockchain-compatible solution that translates traditional dispute resolution and judiciary and contract functionalities into the digital realm. Our vision includes a system that synergizes the virtues of centralized and decentralized models.
 
 Liberland Blockchain is a layer 1 public blockchain owned by coin and token holders. The blockchain is funded and supported by Liberland, providing the first set of use cases. The codebase is a fork of Substrate/Polkadot, and the license is MIT, the same as Bitcoin. Liberland does not claim ownership of the blockchain or related materials.
 
-The blockchain allows permissionless usage of tokens and coins as a store of value or medium of exchange. Advanced functionalities critical to the project's future are permissioned. DeFi projects on the Liberland chain are not permissioned unless designed by third-party developers on a per-project basis.
+The blockchain allows permissionless usage of tokens and coins as a store of value or medium of exchange. Advanced functionalities critical to the project's future are permissioned. DeFi projects on the Liberland chain are not permissioned unless designed by third-party developers on a per-project basis. 
 
 This milestone now sets the stage for implementing the quintessential element of all governance systems - the judiciary. We seek to enable dispute resolution and advisory opinions, traditionally offline activities, to take place within this blockchain ecosystem.
 
@@ -34,7 +34,7 @@ The solution we propose introduces a hybrid entity, central yet decentralized, c
 This architecture enhances the breadth of on-chain business activity, facilitating enforcement of traditional contract agreements and enabling partial algorithmic execution. In effect, this approach instills confidence that transactions, whether off-chain or on-chain, offline or online, will be enforced. Additionally, it offers an authoritative entity to resolve any disputes arising from the obligations agreed upon by the parties involved.
 
 #### Project Ecosystem Fit
-The Liberland Blockchain solution will be a significant addition to the Polkadot ecosystem. By translating traditional dispute resolution and judiciary functionalities into the digital realm, it will introduce a new layer of trust and security to blockchain transactions. The integration of a 'court as a smart contract oracle' will enable the execution of traditional contracts on-chain, thereby expanding the scope of on-chain business activity. 
+The Liberland Blockchain solution will be a significant addition to the Polkadot ecosystem. By translating traditional dispute resolution and judiciary functionalities into the digital realm, it will introduce a new layer of trust and security to blockchain transactions. The integration of a 'court as a smart contract oracle' will enable the execution of traditional, worded contracts on-chain, thereby expanding the scope of on-chain business activity. 
 
 Furthermore, the solution will provide a hybrid entity that is both central and decentralized, capable of interpreting intent behind actions within the blockchain. This will enhance the Polkadot ecosystem's ability to regulate transactions, especially in situations where malicious or bad faith intentions are identified. 
 
@@ -101,14 +101,14 @@ If a party wishes to obtain the Court's opinion on a particular legal, technical
 A contract or a case is collateralized such that the collateral is sufficient to cover any additional payments prescribed in the final verdict, beyond the awarded sum and the Court Costs. In this scenario, the collateral serves as a mechanism for execution of the judgement. Collateral may be handled by a third party, such as an insurance company.
 
 ##### Case with Insufficient Collateral
-###### Seizing LLM
-The judge is imbued with the authority to designate an individual's LLM as collateral. Upon such a declaration, an involuntary unpooling of the owing party's LLM stash will ensue, carrying typical ramifications like the forfeit of voting rights associated with that stash. If the full amount is subsequently paid, this directive is withdrawn. However, under circumstances where
+###### Seizing politipooled LLM
+The judge is imbued with the authority to designate an individual's politipooled (staked) LLM as collateral. Upon such a declaration, an involuntary unpooling of the owing party's pooled LLM stash will ensue, optionally carrying typical ramifications like the forfeit of voting rights associated with that stash. If the full amount is subsequently paid, this directive is withdrawn. However, under circumstances where
 
 there is a violation of the Non Aggression Principle, implicating aggressive conduct against another individual's person or property, or
 
 the damage incurred exceeds one's LLM stash,
 
-the offender's LLM balance could turn negative, resulting in their listing on Liberland's 'wanted' roster, rendering them a 'persona non grata'. Consequently, they lose their voting rights until the owed amount is fully settled.
+the offender's LLM balance could turn negative, resulting in their listing on Liberland's 'wanted' roster, rendering them a 'persona non grata'. Consequently, they lose their voting rights and potentially access to other Liberland services until the owed amount is fully settled.
 
 ###### Enforcement Beyond the Chain
 In instances where the judgement cannot be enforced by either of the aforementioned methods, the awarded sum will be incorporated into a conventional contract, or appended as a supplement if the dispute is contract-related. This contract, endorsed by both parties, holds legitimacy outside of Liberland, akin to any other contract. It can be presented to an enforcement agency for execution, even against the unwilling party's resistance. Note that this is just an explanation of the process, and doesn't represent a deliverable for the grant.
@@ -146,11 +146,11 @@ To make these games more engaging, we could utilize the Complex Advisory Opinion
 
 The Liberland Blockchain project fits into the Polkadot/Substrate/Kusama ecosystem as a layer 1 public blockchain that is a fork of Substrate/Polkadot. The project aims to translate traditional dispute resolution and judiciary functionalities into the digital realm, thereby introducing a new layer of trust and security to blockchain transactions. The integration of a 'court as a smart contract oracle' will enable the execution of traditional contracts on-chain, thereby expanding the scope of on-chain business activity.
 
-Although we deploy the system on our blockchain, it is fully open source and, ultimately, chain agnostic in the sense that you can deploy and use it yourself, under your own unique circumstances. Or just bridge to us and use it as part of Liberland's system.
+Although we deploy the system on our blockchain, it is fully open source and, ultimately, chain agnostic in the sense that you can deploy and use it yourself, under your own unique circumstances. Or just bridge to us and use it as part of Liberland's system. Additionally, the judiciary and registries pallets could be deployed as Liberland recognized, but separate private courts to provide traditional contract execution as a paracain on Polkadot and Kusama.
 
 - **Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?**
 
-The target audience for the Liberland Blockchain project includes developers, designers, and users of the Liberland Blockchain, as well as developers and users of other parachains, dapps, wallets, and UIs within the Polkadot/Substrate/Kusama ecosystem. The project also targets individuals and organizations interested in utilizing blockchain technology for dispute resolution and judiciary functionalities.
+The target audience for the Liberland Blockchain project includes developers, designers, and users of the Liberland Blockchain, as well as developers and users of other parachains, dapps, wallets, and UIs within the Polkadot/Substrate/Kusama ecosystem. The project also targets individuals and organizations interested in utilizing blockchain technology for dispute resolution, judiciary, traditional contract and company/asset management functionalities.
 
 - **What need(s) does your project meet?**
 
@@ -192,7 +192,7 @@ As of the time of writing, there are no known projects within the Substrate/Polk
 
 ### Team's experience
 
-Our team has extensive experience in developing blockchain solutions. We have been working on the Liberland Blockchain, a layer 1 public blockchain owned by coin and token holders. The blockchain is funded and supported by Liberland, providing the first set of use cases. The codebase is a fork of Substrate/Polkadot, and the license is MIT, the same as Bitcoin. Liberland does not claim ownership of the blockchain or related materials.
+Our team has extensive experience in developing blockchain solutions. We have been working on the Liberland Blockchain, a layer 1 public blockchain owned by coin and token holders. All team members individually have 7+ years of software engineering experience with 1+ years experience with blockchain technologies, primarily Substrate, Rust and Solidity. The codebase is a fork of Substrate/Polkadot, and the license is MIT, the same as Bitcoin. Liberland does not claim ownership of the blockchain or related materials.
 
 ### Team Code Repos
 
@@ -216,7 +216,20 @@ If you've already started implementing your project or it is part of a larger re
 4. [**Cryptocurrency and the Family Courts - Some International Experiences**](https://financialremediesjournal.com/content/cryptocurrency-and-the-family-courts-some-international-experiences.4fc550f56143411ca515055b2ce2872d.htm) – by Financial Remedies Journal
 This article discusses how cryptocurrency is being dealt with in family court cases in England.,
 - **links to your research diary, blog posts, articles, forum discussions or open GitHub issues:** [development JIRA](https://liberland.atlassian.net/jira/software/projects/BLOCKCHAIN/boards/2),
-- **contact with Web3 Foundation:** conversation with Seraya Takahashi from 26-07-2023 
+- **contact with Web3 Foundation:** conversation with Seraya Takahashi from 26-07-2023
+
+- ### **Links**
+[Github](https://github.com/liberland)
+[Docs](https://liberland-1.gitbook.io/wiki/v/public-documents/blockchain/)
+[Testing guide](https://docs.google.com/document/d/1ntrT6bafTD2LfXUG9QLxOieogXELn9icN1y__EGfZ98/edit#heading=h.yfda4shb4ggs)
+[Blockchain website](https://liberland.org/blockchain)
+[Project website](https://liberland.org)
+[Mainnet explorer](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Fmainnet.liberland.org#/)
+[Mainnet frontend](https://blockchain.liberland.org/signin)
+[Testnet explorer](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Ftestchain.liberland.org%2F#/explorer)
+[Testnet frontend](https://testnet.liberland.org)
+[Metaverse](https://liberverse.net/)
+[Liberland Marketplace](https://market.ll.land/)
 
 ## Development Roadmap :nut_and_bolt:
 
@@ -273,12 +286,22 @@ This article discusses how cryptocurrency is being dealt with in family court ca
 - We are also setting up a system of promotion for the Liberland Blockchain
 - The judiciary will be a big part of that
 - We will also connect to 3rd party services, enabling the operation of the judiciary with their platforms
-- We are currently organizing our first Liberland Blockchain/ Polkadot conference.
+- After the success of our first Liberland Blockchain/ Polkadot conference, we will keep organizing more.
+
+### Judiciary development future plans
+- Consult extensively with blockchain and game theory experts, academia, and professionals to refine the solution
+- Create the Judges Roster backend & front end.
+- Easy to use contract builder frondend that deploys a hybrid smart/traditional contract with defined juridistictions
+- Upgrade escrow functionality to adapt for use with insurance companies, allowing partial escrow etc
+- Integration with the company, land and asset registry pallets to allow full legal support for on chain assets
+- Setup default company hybrid contracts to support shareholders in preparation for the Liberland stock market
+- Bridge more tokens so that contracts can support BTC, USDT, ETH, DOT etc...
+- Instantiate a new chain with these functionalities as a parachain on Polkadot/Kusama
 
 ## Additional Information :heavy_plus_sign:
 
 **How did you hear about the Grants Program?** Web3 Foundation Website
 
-- **Work you have already done**: We have set up the Level 1 Liberland Blockchain, and have already received and utilized a grant from Web3 Foundation for it.
+- **Work you have already done**: We have set up the Level 1 Liberland Blockchain, and have already received and utilized a grant from Web3 Foundation for it. The blockchain currently handles the political process, stores legislature and handles vetoes, uses assets as political token, has company, land and other asset registries, and is integrated into the Liberland metaverse
 - **Other teams**: We are grateful for the help of the [Neti Blockchain Development Company](https://neti-soft.com/) They have contributed greatly to the development and we expect them to remain with us for the development of the judiciary.
 - **Previous Grants**: Liberland Blockchain Level 2 Grant: accepted and paid out.
