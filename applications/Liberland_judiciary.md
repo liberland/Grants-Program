@@ -233,13 +233,13 @@ This article discusses how cryptocurrency is being dealt with in family court ca
 
 ### Overview
 
-- **Total Estimated Duration:** 4 months
+- **Total Estimated Duration:** 2 months
 - **Full-Time Equivalent (FTE):**  4 FTE
 - **Total Costs:** 30 000 USD.
 
 ### Milestone 1 Simple Process
 
-- **Estimated duration:** 2 months
+- **Estimated duration:** 1 month
 - **FTE:**  1,5
 - **Costs:** 15,000 USD
 
@@ -259,7 +259,7 @@ This article discusses how cryptocurrency is being dealt with in family court ca
 
 ### Milestone 2 Example — Additional features
 
-- **Estimated Duration:** 2 months
+- **Estimated Duration:** 1 month
 - **FTE:**  1,5
 - **Costs:** 15,000 USD
 
