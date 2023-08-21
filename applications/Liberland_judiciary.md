@@ -10,9 +10,9 @@ Follow-up on Liberland Grant Application [pull request: Create liberland #831; a
 
 ### Liberland Blockchain
 
-Our mission is to conceive a blockchain-compatible solution that translates traditional dispute resolution and judiciary and contract functionalities into the digital realm. Our vision includes a system that synergizes the virtues of centralized and decentralized models.
+We are Liberland, the world's freest country. Currently, we are settling the physical land, but we also remain focused on our blockchain. The next milestone in our blockchain suite's development is to conceive a blockchain-agnostic solution that translates traditional dispute resolution and judiciary and contract functionalities into the digital realm. Our vision includes a system that synergizes the virtues of centralized and decentralized models.
 
-Liberland Blockchain is a layer 1 public blockchain owned by coin and token holders. The blockchain is funded and supported by Liberland, providing the first set of use cases. The codebase is a fork of Substrate/Polkadot, and the license is MIT, the same as Bitcoin. Liberland does not claim ownership of the blockchain or related materials.
+Liberland Blockchain is a layer one public blockchain owned by coin and token holders. The blockchain is funded and supported by Liberland, providing the first set of use cases. The codebase is a fork of Substrate/Polkadot, and the license is MIT, the same as Bitcoin. Liberland does not claim ownership of the blockchain or related materials.
 
 The blockchain allows permissionless usage of tokens and coins as a store of value or medium of exchange. Advanced functionalities critical to the project's future are permissioned. DeFi projects on the Liberland chain are not permissioned unless designed by third-party developers on a per-project basis. 
 
@@ -36,23 +36,23 @@ This architecture enhances the breadth of on-chain business activity, facilitati
 #### Project Ecosystem Fit
 The Liberland Blockchain solution will be a significant addition to the Polkadot ecosystem. By translating traditional dispute resolution and judiciary functionalities into the digital realm, it will introduce a new layer of trust and security to blockchain transactions. The integration of a 'court as a smart contract oracle' will enable the execution of traditional, worded contracts on-chain, thereby expanding the scope of on-chain business activity. 
 
-Furthermore, the solution will provide a hybrid entity that is both central and decentralized, capable of interpreting intent behind actions within the blockchain. This will enhance the Polkadot ecosystem's ability to regulate transactions, especially in situations where malicious or bad faith intentions are identified. 
+Furthermore, the solution will provide a hybrid entity that is both central and decentralized, capable of interpreting the intent behind actions within the blockchain. This will enhance the Polkadot ecosystem's ability to regulate transactions, especially in situations where malicious or bad faith intentions are identified. 
 
-The Liberland Blockchain, a layer 1 public blockchain, is a fork of Substrate/Polkadot, further strengthening the ties between the two ecosystems. By offering a virtual judiciary, the solution will instill confidence in transactions and provide an authoritative entity to resolve any arising disputes. This will significantly contribute to the robustness and reliability of the Polkadot ecosystem.
+The Liberland Blockchain, a layer one public blockchain, is a fork of Substrate/Polkadot, further strengthening the ties between the two ecosystems. By offering a virtual judiciary, the solution will instil confidence in transactions and provide an authoritative entity to resolve any arising disputes. This will significantly contribute to the robustness and reliability of the Polkadot ecosystem.
 
 ### Project Details
 
 #### Simple Process
 ##### Outline
-The Simple process is employed when all parties involved reach a consensus on the selection of a judge or panel of judges to preside over their case. The selection can be explicit (naming a specific judge) or implicit ("we agree to let the system decide"). The system provides parameters (such as cost, experience level, etc.) for judge selection, with the stipulation that parties are bound by their agreement to accept the system's random selection within the agreed upon parameters.
+The Simple process is employed when all parties involved reach a consensus on selecting a judge or panel of judges to preside over their case. The selection can be explicit (naming a specific judge) or implicit ("we agree to let the system decide"). The system provides parameters (such as cost, experience level, etc.) for judge selection, stipulating that parties are bound by their agreement to accept the system's random selection within the agreed-upon parameters.
 
 The Simple process is designed to be:
-- Quick, and
-- More economical than the contested process.
-- The intent is to ensure expedient and cost-effective resolution, contrasting with contemporary systems where years can elapse before disputes are resolved. In Liberland, minor disputes could potentially be adjudicated within a day or a few days through the Simple process, and at a significantly reduced cost.
+- Quick, 
+- More economical than the contested process, and
+- the intent is to ensure expedient and cost-effective resolution, contrasting with contemporary systems where years can elapse before disputes are resolved. In Liberland, minor disputes could potentially be adjudicated within a day or a few days through the Simple process, and at a significantly reduced cost.
 
 ##### Mediation
-The appointed judge endeavors to segment the case into manageable portions, drafting a mediation solution for each. This proposed solution is then presented to the involved parties. If an agreement is reached, the process concludes without litigation, and the judge is remunerated a flat fee, which is lower than the litigation tariff.
+The appointed judge endeavours to segment the case into manageable portions, drafting a mediation solution for each. This proposed solution is then presented to the involved parties. If an agreement is reached, the process concludes without litigation, and the judge is remunerated a flat fee, which is lower than the litigation tariff.
 
 ##### Litigation
 In instances where a mutual agreement is not achieved, the judge drafts a mediation solution and presents it to the involved parties. If an agreement is reached, -> the litigation process is averted, -> with the judge remunerated a flat fee that is lower than the tariff payable when Complex Process is used.
@@ -62,12 +62,12 @@ In instances where a mutual agreement is not achieved, the judge drafts a mediat
 The Complex Process acts as a fallback mechanism when the parties cannot concur on the choice of a judge or other terms. A mutual agreement on jurisdiction must be established for any process to occur, but there may exist a level of distrust that prevents a jointly accepted judge. In such circumstances, the system adapts to assign three judges:
 - The attorney representing the applicant,
 - The attorney representing the respondent, and
-- An arbitrator, jointly selected by the two attorneys.
+- An arbitrator jointly selected by the two attorneys.
 
 This system, although more involved, remains streamlined for efficiency and cost-effectiveness, maintaining the balance between swiftness and the demands of judicature. The Complex Process is designed to handle intricate issues requiring detailed attention and processual protections for the parties involved. Ultimately, the criminal process of Liberland will adopt the framework of the Complex Process.
 
 ##### Mediation
-1. A user (Party A) alleges that another user (Party B) has violated the standing body of rules (Liberland Law). In case of smart contract, this is done by triggering a function on the contract itself, which enters into 'litigation mode' until the process is resolved
+1. A user (Party A) alleges that another user (Party B) has violated the standing body of rules (Liberland Law). In the case of a smart contract, this is done by triggering a function on the contract itself, which enters into 'litigation mode' until the process is resolved
 2. Party A selects a judge (Attorney A) from the available roster, agrees to their terms, and pays collateral plus a transaction fee.
 3. Party B is notified and selects a judge (Attorney B).
 4. Party A and Attorney A compile and submit a Case.
@@ -98,20 +98,18 @@ If a party wishes to obtain the Court's opinion on a particular legal, technical
 
 #### Enactment of Awards
 ##### The Optimal Circumstance
-A contract or a case is collateralized such that the collateral is sufficient to cover any additional payments prescribed in the final verdict, beyond the awarded sum and the Court Costs. In this scenario, the collateral serves as a mechanism for execution of the judgement. Collateral may be handled by a third party, such as an insurance company.
+A contract or a case is collateralized such that the collateral is sufficient to cover any additional payments prescribed in the final verdict beyond the awarded sum and the Court Costs. In this scenario, the collateral serves as a mechanism for the execution of the judgement. A third party, such as an insurance company may handle collateral.
 
 ##### Case with Insufficient Collateral
 ###### Seizing politipooled LLM
 The judge is imbued with the authority to designate an individual's politipooled (staked) LLM as collateral. Upon such a declaration, an involuntary unpooling of the owing party's pooled LLM stash will ensue, optionally carrying typical ramifications like the forfeit of voting rights associated with that stash. If the full amount is subsequently paid, this directive is withdrawn. However, under circumstances where
 
-there is a violation of the Non Aggression Principle, implicating aggressive conduct against another individual's person or property, or
-
-the damage incurred exceeds one's LLM stash,
-
-the offender's LLM balance could turn negative, resulting in their listing on Liberland's 'wanted' roster, rendering them a 'persona non grata'. Consequently, they lose their voting rights and potentially access to other Liberland services until the owed amount is fully settled.
+- there is a violation of the Non-Aggression Principle, implicating aggressive conduct against another individual's person or property, or
+- the damage incurred exceeds one's LLM stash,
+- the offender's LLM balance could turn negative, resulting in their listing on Liberland's 'wanted' roster, rendering them a 'persona non grata'. Consequently, they lose their voting rights and potentially access to other Liberland services until the owed amount is fully settled.
 
 ###### Enforcement Beyond the Chain
-In instances where the judgement cannot be enforced by either of the aforementioned methods, the awarded sum will be incorporated into a conventional contract, or appended as a supplement if the dispute is contract-related. This contract, endorsed by both parties, holds legitimacy outside of Liberland, akin to any other contract. It can be presented to an enforcement agency for execution, even against the unwilling party's resistance. Note that this is just an explanation of the process, and doesn't represent a deliverable for the grant.
+In instances where either of the aforementioned methods cannot enforce the judgement, the awarded sum will be incorporated into a conventional contract or appended as a supplement if the dispute is contract-related. This contract, endorsed by both parties, holds legitimacy outside of Liberland, akin to any other contract. It can be presented to an enforcement agency for execution, even against the unwilling party's resistance. Note that this is just an explanation of the process and doesn't represent a deliverable for the grant.
 
 #### Functionality: Traditional Contracts
 ##### Overview
@@ -289,8 +287,6 @@ This article discusses how cryptocurrency is being dealt with in family court ca
 - After the success of our first Liberland Blockchain/ Polkadot conference, we will keep organizing more.
 
 ### Judiciary development future plans
-- Consult extensively with blockchain and game theory experts, academia, and professionals to refine the solution
-- Create the Judges Roster backend & front end.
 - Easy to use contract builder frondend that deploys a hybrid smart/traditional contract with defined juridistictions
 - Upgrade escrow functionality to adapt for use with insurance companies, allowing partial escrow etc
 - Integration with the company, land and asset registry pallets to allow full legal support for on chain assets
