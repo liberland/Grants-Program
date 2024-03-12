@@ -12,165 +12,215 @@ Follow-up on Liberland Grant Application [pull request: Create liberland #831; a
 
 We are Liberland, the world's freest country. Currently, we are settling the physical land and developing our blockchain. 
 
-Liberland Blockchain is a sovereign blockchain owned by token holders, founded and supported by Liberland which provides the first set of use cases. The codebase is a fork of Substrate/Polkadot, with MIT license. Liberland does not claim ownership of the blockchain or related materials.
+Liberland Blockchain is a sovereign blockchain founded and supported by Liberland which provides the first set of use cases. The codebase is a fork of Substrate/Polkadot, with MIT license. Liberland does not claim ownership of the blockchain or related materials.
 
 Functionalities such as trading and DeFi projects are permissionless by default while some critical functionalities such as country politics are permissioned and require KYC.
 
 The next blockchain milestone is translating traditional contract, dispute resolution and judiciary functionalities into the Web3 realm, synergizing the virtues of centralized and decentralized models.
 
-This milestone implements the quintessential element of all governance systems - the judiciary. We seek to enable dispute resolution and advisory opinions to take place within this blockchain ecosystem.
+This milestone implements the quintessential element of all governance systems - the judiciary. We seek to enable dispute resolution within this blockchain ecosystem.
 
 ### Overview
 
 #### Project Overview
 
-The Liberland Judiciary is designed to develop an on-chain system capable of acting on behalf of a party without their explicit permission in pre-approved ways with mutual consent given in advance.
+The Liberland Judiciary is developing an on-chain system capable of acting on behalf of a party without their explicit permission in pre-determined ways with mutual consent given in advance.
 
-- Facilitate the integration of a 'court as a smart contract oracle', thereby enabling the execution of traditional, verbose contracts on-chain. This system allows for the imposition of sanctions as dictated by the applicable law and the contract itself in the event of a dispute.
-<RETHINK>
-- Implement norms or laws to regulate the system's operations, thereby eliminating arbitrary decisions and enhancing trust.
-- Guarantee decentralization and security while ensuring that the system is operated by professionals who uphold the quality of decisions.
-- Retain recognizability by resembling a traditional courtroom rather than a streamlined IT service app.
+While cryptocurrencies have successfully managed to build a parallel financial system, other uses of the technology remain rare 
+because its hard to represent the real world or enforce contracts onchain. 
+This anarchic decentralization is at the same time a great benefit but also a big limitation of blockchain technology.
 
-The solution we propose introduces a hybrid entity, central yet decentralized, capable of interpreting intent behind actions within the blockchain. Empowered to regulate transactions by reversing or counteracting them, this entity exercises authority particularly in situations where malicious or bad faith intentions are identified. By introducing a virtual judiciary, any questionable actions can be evaluated and, if necessary, nullified.
+This limitation needs to be solved in order to run a country on the blockchain.
 
-This architecture enhances the breadth of on-chain business activity, facilitating enforcement of traditional contract agreements and enabling partial algorithmic execution. In effect, this approach instills confidence that transactions, whether off-chain or on-chain, offline or online, will be enforced. Additionally, it offers an authoritative entity to resolve any disputes arising from the obligations agreed upon by the parties involved.
-</RETHINK>
-#### Project Ecosystem Fit
-The integration of a 'court as a smart contract oracle' will enable the execution of traditional, worded contracts on-chain, thereby expanding the scope of on-chain business activity.
-By translating traditional dispute resolution and judiciary functionalities into Web3, it will introduce a new layer of trust and security to blockchain transactions.
-The Liberland Blockchain will be a significant addition to the Polkadot ecosystem as our pallets and practices can be used directly or in other parachains.
+Liberland solves this through courts acting as on-chain oracles providing data and judgements to contracts.
+
+Everything in Liberland is done through contracts. While 'a social contract' is forced and implied in other countries,
+it is explicit and voluntary in Liberland.
+
+ - A citizen is a person who signed and fulfills the criteria for a 'citizenship contract',
+which gives voting rights to the citizen but also allows courts to punish the citizen for breaking the law.
+
+ - A Liberland company is an entity that has signed and fulfills the criteria for a 'company contract' which gives it
+the rights and protections of the Liberland ecosystem, which can be taken away and company closed for breaking the law.
+ 
+ - Any custom contract with conditions that cannot be tokenized, for example onchain health insurance contracts.
+
+Judiciary is capable of interpreting intent behind actions within the blockchain. 
+Empowered to enforce contracts, this entity exercises authority particularly in situations where malicious or bad faith intentions are identified. 
+By introducing a virtual judiciary, questionable actions can be evaluated and, if necessary, nullified.
+
+This architecture enhances the breadth of on-chain business activity,
+facilitating enforcement of traditional contract agreements and enabling partial algorithmic execution. 
+In effect, this approach instills confidence that transactions, whether off-chain or on-chain, offline or online, will be enforced. 
+It offers an authoritative entity to resolve any disputes arising from the obligations agreed upon by the parties involved.
+
+- Develop a 'court as a smart contract oracle' system to enable execution of traditional verbose contracts on-chain. This allows the imposition of sanctions as dictated by law or the contract itself in the event of a dispute.
+- Implement norms, laws and contract templates to regulate the system's operations and promote good practices.
+- Retain recognizable courtroom processes.
+- Develop a market for judges and attorneys, and seed it with professionals ready to be hired.
+- Enable traditional businesses to operate on-chain.
+- Use the system for criminal cases in Liberland.
+
+
 
 ### Project Details
 
-#### Simple Process
-##### Outline
-The Simple process is employed when all involved parties reach a consensus on selecting judges to preside over their case. The selection can be explicit (naming a specific judge) or implicit ("letting the system decide"). within given parameters (such as cost, experience level, etc.) for judge selection.
+#### Hybrid Contracts
 
-The Simple process is designed to be quick and cost-effective.
+Major part of the project is refactoring current functionality into contracts that can be opted in and out of.
 
-##### Mediation
-The appointed judge segments the case into portions, drafting a mediation solution for each. This proposed solution is presented to the involved parties.
-If an agreement is reached, the process concludes without litigation, and the judge is paid.
+These are hybrid contracts, part code where code is law and part traditional text contract where law is law.
 
-##### Litigation
-<UNCLEAR same as mediation ?>
-When mutual agreement is not achieved, the judge drafts a mediation solution and presents it to the involved parties.
-If an agreement is reached, -> the litigation process is averted, -> with the judge remunerated a flat fee that is lower than the tariff payable when Complex Process is used.
-</UNCLEAR>
-#### Complex Process
-##### Outline
-The Complex Process is used when the parties cannot agree on the choice of a judge or other terms. An agreement on jurisdiction must be pre-established for any process to occur. In such circumstances, the system adapts to assign three judges:
-- The attorney representing the applicant,
-- The attorney representing the respondent, and
-- An arbitrator jointly selected by the two attorneys.
+Hybrid Contracts need to
+ - Keep smart contract functionalities
+ - Handle real-world data
+ - Handle traditional contract clauses (text)
+ - Choose jurisdiction
+ - Handle disputes
+ - Enforce code and text 'clauses'
 
-The Complex Process is designed to handle intricate issues requiring detailed attention and processual protections for the parties involved while maintaining balance between swiftness and the demands of judicature. 
-Ultimately, the criminal process of Liberland will adopt the framework of the Complex Process.
 
-##### Mediation
-1. Party A alleges that Party B has violated the rules (Contract or law). In a smart contract, this is done by triggering a function on the contract which activates 'litigation mode' until the process is resolved
-2. Party A selects Attorney A from the available roster, agrees to their terms, and pays collateral plus a transaction fee.
-3. Party B is notified and selects Attorney B.
-4. Party A and Attorney A compile and submit a Case.
-5. Party B and Attorney B compile and submit a Response.
-6. The Attorneys meet to create a Compromise, dividing the Case into parts and seeking resolution without litigation where possible.
-7. Resolved parts of the Case are executed.
-8. The unresolved parts proceed to Litigation.
+Components of a hybrid contract
+ - Self executing (smart) clauses
+ - Traditional text clauses
+ - jurisdiction when in dispute mode
+ - Parties that signed the contract
+ - Change in behaviour when in dispute mode
+ - Execution when in dispute mode
+ - Cancellation clause
+ - Collateral (can be another contract)
 
-##### Litigation
-1. Attorneys mutually select a third Judge (the Arbitrator).
-2. The Arbitrator delivers a Judgement, analyzing the Application and Response according to Liberland law and relevant contract, resulting in statements of "Party X pays to Party Y," backed by a rationale.
-3. If the Parties accept, the judgment is executed. If a Party rejects, the Party pays the appeals fee, and an appeal process commences.
+Note that these contracts can basically be anything, we just outline the most common ones used in Liberland.
 
-#### Appeal
-##### Outline
-An appeal can ensue after the litigation process, unless the parties agreed in advance to forego the possibility of appeal, which is anticipated to be common in the Simple process. 
-Appeal is initiated on request, which questions the litigation verdict.
-Appeal must be paid for by the party initiating it.
+##### Example - citizenship contract
 
-##### Steps of an Appeal
-1. An Appeal Judge is appointed by the algorithm.
-2. The Appeal Judge examines the appeal points and formulates an Appeal Verdict.
-3. The final Verdict is executed on the Collateral.
+A citizen in Liberland is a person who signed and fulfills the criteria of the 'Citizenship contract'
 
-#### Functionality: Advisory Opinion
-If a party wishes to obtain the Court's opinion on a particular matter in the absence of a dispute, the system offers two types of Advisory Opinions:
+To qualify, one needs to stake at least 5000LLM (which can act as collateral), be approved (KYCd) by the Ministry of Interior and follow the laws of Liberland.
 
-**Simple Advisory Opinion:** A yes/no binary question. The party formulates the question, provides reasoning, pays a fee, and presents the question to the Judge. They then wait for the Judge's decision and can either accept or reject it. If they reject it, they can pay an additional fee to re-run the game up to three times to view the opinions of three different Juries.
-**Complex Advisory Opinion:** The party pays a higher fee, formulates a complex question, and chooses a Judge. The Judge then formulates the Opinion on the points of the question. The party waits for the Judge's decision and either accepts or rejects it, paying an additional fee to re-run the game up to three times if they choose to reject it.
+If the conditions are met and contract is signed, the citizen gains the right to
+ - run a validator
+ - participate in politics
+ - veto legislation
+ - obtain a Liberland passport
+ - Account recovery (optional)
+
+Some of these rights are conditional while some are permanent. 
+
+For example. if the citizen falls under 5000 staked LLM, the right to apply for congress is lost, but the right to use the passport is not affected.
+
+The condition for 5000 LLM and the corresponding political rights are handled programmatically.
+
+Other conditions however are handled by humans. 
+
+Since the citizenship contract is under the jurisdiction of Liberland, courts are given pre-defined execution power when in dispute mode.
+
+If the citizen is accused of breaking the law, the contract enters 'dispute mode'. 
+If the court finds the citizen guilty, they may decide to order the citizen to pay for the damages. If the citizen cannot pay, the contract allows the court to unstake the citizens LLM to cover the costs.
+
+If for example the citizen was proven to be hacking the validator, the right to run a validator might be taken away.
+
+##### TODO Example - Managed staking company
+##### TODO Example - Other company example 
+
+#### Default 'dispute mode'
+
+In general, if all the parties of the contract agree to execute some contract clause, the contract will allow it.
+
+However, dispute mode can be triggered by a party. In a dispute mode, the contract can change behaviour and gives execution power to the judge.
+
+For example, if the contract was normally making payments every month, dispute mode may stop this until the judge or the parties resolve the dispute.
+
+A judge needs to be defined, either pre-defined in the contract or appointed with agreement by both parties.
+
+After the off-chain judicial process, the judge then executes the decisions on the contract.
+
+In most cases, the services of the judge will need to be paid for.
+
+##### Default Dispute Process
+
+When all parties reach a consensus on selecting a judge the dispute can continue. The judge is ideally pre-defined in the contract itself.
+
+The judge selection can be explicit (specific judge) or implicit ("letting the system decide"). 
+For example, a contract can say that any judge in Liberland(or German, or US etc...) jurisdiction or a specific private court can take the case. 
+In that case the legal organization selects the judge to handle the dispute.
+
+The process is designed to be quick and cost-effective, happens off chain, and only the final decision is recorded on-chain.
+
+Depending on the judge and jurisdiction, the details of the judicial process may vary and are irrelevant for this grant.
+
+
+##### Appeal
+
+The default contract waits a period of time until the judges decision about a dispute are executed. 
+This allows to trigger the appeal process which happens in the backup jurisdiction at the expense of the appealer.
+
 
 #### Enactment of Awards
+
+As part of dispute resolution, one party might have to pay the other. In addition, the judges have to be paid for their services.
+
 ##### The Optimal Circumstance
-A contract or a case has suffiient collateral to cover any additional payments in the final verdict and the court costs. In this scenario, the collateral is used for the execution of the judgement. A third party, like an insurance company may handle collateral.
+A contract or a case has sufficient collateral to cover any additional payments in the final verdict and the court costs. 
+In this scenario, the collateral is used for the execution of the judgement. 
+A third party, like an insurance company may handle collateral in which case the collateral provider might be a different contract in itself with its own rules.
 
 ##### Case with Insufficient Collateral
 ###### Seizing politipooled LLM
-The judge has the authority to designate an individual's politipooled (staked) LLM as collateral, triggering involuntary unpooling of the owing party's pooled LLM.
-
-However, under circumstances where
-
-- there is a violation of the Non-Aggression Principle, implicating aggressive conduct against persons or property, or
-- the damage incurred exceeds one's LLM stash,
-
-the offender's LLM balance could turn negative, resulting in their listing on Liberland's 'wanted' roster, rendering them a 'persona non grata'. Consequently, they lose their voting rights and potentially access to other Liberland services until the owed amount is fully settled.
+If an individual's staked LLM is collateral, involuntary unstaking of the owing party's staked LLM will be triggered as defined in the citizenship contract.
 
 ###### Enforcement Beyond the Chain
 In instances where aforementioned methods cannot enforce the judgement, the awarded sum will be incorporated into a conventional contract or appended as a supplement if the dispute is contract-related.
 This contract, endorsed by both parties, holds legitimacy outside of Liberland, akin to any other contract. It can be presented to an enforcement agency for execution, even against the unwilling party's resistance.
 Note that this is just an explanation of the process and doesn't represent a deliverable for the grant.
 
-#### Functionality: Traditional Contracts
-##### Overview
-Most contractual relationships in the world aren't simple and predictable enough to be run on smart contracts.
-Dumb/traditional contracts, are what runs the world of business and everyday life made in an agreement with another humans under juridistictions of nation states. 
+#### Edge Cases
 
-We aim to translate these traditional contracts into Web3.
+##### Unresponsive judge
+If the judge is unresponsive for a long period of time, the backup jurisdiction is activated. 
+If there is no backup, the dispute can only be resolved by both parties agreeing (signing the same transaction) on the contract
 
-How will it work? Alice and Bob enter into a traditional contract for the sale of goods. They agree to use the Liberland Blockchain Judiciary system for any potential disputes. 
-They choose a judge from the roster and agree on the collateral and fees. The contract is recorded on the blockchain.
+#### Marketplace of judges and jurisdictions
 
-##### Benefits:
-- **Efficiency and Speed:** The Liberland Blockchain Judiciary system offers a Simple Process for dispute resolution. If a dispute arises, Alice or Bob can trigger the judge to give a binding opinion. This process is quicker and cheaper than traditional legal systems, potentially resolving disputes within a few days.
-- **Cost-Effectiveness:** The system is designed to be cheaper than traditional legal systems. The costs are defined upfront and include the judge's fees and any potential award to the victorious party, offering transparency and predictability of costs.
-- **Security and Trust:** Blockchain provides a secure and immutable record of the contract and dispute resolution proceedings. This increases trust and reduces the risk of fraudulent claims.
-- **Payment Processing:** The blockchain can be used to process payments related to the contract. This is useful in cases where the contract involves regular payments or where the amount depends on certain conditions being met. The blockchain can automatically process these payments when the conditions are met, removing manual intervention and the risk of non-payment.
-- **Smartification of Traditional Contracts:** While the contract itself may be a traditional contract, the use of the blockchain allows for parts of the contract to be automated. For example, payments can be automatically triggered when certain conditions are met. This makes the contract more efficient and reduces the potential for disputes.
-- **Functionality:** Advisory Option in State Administration
-Beyond dispute resolution and advisory opinions, we plan to extend the use of this system to other areas, such as Administrative Decisions on-chain.
+We will build a registry system for jurisdictions and judges so that contracts can easily search for the right one 
+based on parameters such as location, reputation, experience, cost etc.
 
-For example, the process of granting or denying citizenship could be complemented with our decentralized system. The Ministry of Internal Affairs, Citizenship Agency would work with the Citizen applicant through steps such as proof of commitment (locked stake), KYC, and Citizenship Interview.
+While Liberland will maintain its own registry, the system is decentralized so anyone can start their own.
 
-Afterward, they would create a brief report on the results and a more detailed report on the applicant's background. The Judge would then Confirm or Reject the applicant. A Confirmed applicant becomes a Citizen, while a Rejected one must wait one year before re-applying.
 
-This is not an exhaustive list of potential applications for our system. We encourage other builders to explore further expansions.
+#### Contract builder
 
-#### Functionality: Decentralized Registers
-This system enables decentralization of property registers. 
+To expand the usage we will build an easy to use contract builder that suggests best practices and allows adding pre-built clauses.
 
-The relevant Ministry would create an entry, whichcan be confirmed or rejected by a judge. These decisions will mostly be affirmations and are considered low-stakes/low gains games.
+For example, jurisdiction clause, monthly payment if no dispute clause, cancellation clause, insurance provider clause and so on.
 
-Alternatively, a group of private on-chain registrars can provide concensus or different opinions on inscriptions of registered entities.
+There are 90+ businesses in Liberland and the exact implementation details of the contract builder will be discovered in the process of migrating them on-chain.
+
 
 ### Ecosystem Fit
 
+#### Project Ecosystem Fit
+
+
 - **Where and how does your project fit into the ecosystem?**
 
-The project aims to translate traditional dispute resolution and judiciary functionalities into Web3, introducing a new layer of trust and security to blockchain transactions.
-The integration of a 'court as a smart contract oracle' will enable the execution of traditional contracts on-chain, expanding the scope of on-chain business activity.
-The Liberland Blockchain project fits into the Polkadot/Substrate/Kusama ecosystem as a layer 1 public blockchain that is a fork of Substrate/Polkadot, that can be used directly or in parachains.
-
-Although we deploy the system on our blockchain, it is fully open source and, available for anyone to use and adapt. 
-Or just bridge to us and use it as part of Liberland's system. 
-Additionally, the judiciary and registries pallets could be deployed as Liberland recognized, but separate private courts to provide traditional contract execution as a parachain on Polkadot and Kusama.
+The integration of a 'court as a smart contract oracle' will enable the execution of traditional, worded contracts on-chain,
+thereby expanding the scope of on-chain business activity.
+By translating traditional dispute resolution and judiciary functionalities into Web3, it will introduce a new layer of trust and security to blockchain transactions.
+The Liberland Blockchain will be a significant addition to the Polkadot ecosystem as our pallets and practices can be used directly or in other parachains,
+allowing more organizations to operate and do business using the polkadot ecosystem. We are connected to the dotsama ecosystem through SORA.
 
 - **Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?**
 
-The target audience for the Liberland Blockchain project includes developers, designers, and users of the Liberland Blockchain, as well as developers and users of other parachains, dapps, wallets, and UIs within the Polkadot/Substrate/Kusama ecosystem. The project also targets individuals and organizations interested in utilizing blockchain technology for dispute resolution, judiciary, traditional contract and company/asset management functionalities.
+Liberland justice system, Liberland entrepreneurs, anyone else who wants to run complex contracts and dispute resolution on chain
+
 
 - **What need(s) does your project meet?**
 
-The Liberland Blockchain project meets the need for a blockchain-compatible solution that translates traditional dispute resolution and judiciary functionalities into Web3. It provides a system that synergizes the virtues of centralized and decentralized models, allowing for the execution of traditional contracts on-chain and facilitating enforcement of traditional contract agreements. It also introduces a entity capable of interpreting intent behind actions within the blockchain and regulating transactions, especially in situations where malicious or bad faith intentions are identified.
+Traditional dispute resolution, judiciary and traditional business functionalities in Web3. 
+It allows  the execution of traditional contracts on-chain and facilitating enforcement of traditional contract agreements. 
+It introduces a entity capable of interpreting intent behind actions within the blockchain and regulating transactions, 
+especially in situations where malicious or bad faith intentions are identified.
 
 In addition, it is the judiciary of the country of Liberland, fulfiling one part of the liberlander ambition to attain statehood, namely, to be able to appoint judges and to resolve cases of those who wish to live under Liberland' jurisdiction.
 
@@ -187,6 +237,7 @@ Upon a comprehensive review of the solutions currently available within the Polk
 In light of these observations, we believe that our solution does not compete with either the SaaS3 Court or the DOT Marketplace. Instead, we see potential opportunities for collaboration with these initiatives. Our unique approach to providing a comprehensive legal framework on the blockchain sets us apart and positions us to address a distinct set of challenges and needs within the Polkadot Ecosystem.
 
 As of the time of writing, there are no known projects within the Substrate/Polkadot/Kusama ecosystem that offer the same combination of features as the Liberland Blockchain project. We are the first country to run its government (and judiciary) on the blockchain. But besides that, the unique aspect of this project is the integration of a 'court as a smart contract oracle' that enables the execution of traditional contracts on-chain and the introduction of a entity capable of interpreting intent behind actions within the blockchain. The entire world of traditional contracts is currently barred entry into the blockchain world, and we are attempting to forge a key allowing that huge, majority part of the world economy to come into the Polkadot ecosystem.
+
 
 ## Team :busts_in_silhouette:
 
@@ -264,15 +315,14 @@ This article discusses how cryptocurrency is being dealt with in family court ca
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
 | **0a.** | License | MIT |
-| **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
-| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article**/workshop that explains the functioning of the judiciary and its impact on the Polkadot environment |
-| 1. | Substrate module: Judiciary | We will create a Substrate module that will facilitate the adjudication of cases under the Simple Process, e.g. when the parties agree on the Judge or the Judge selection method|
-| 2. | Substrate module: Escrow/Collateral | We will create an Escrow solution which will also be useable in the judiciary, as explained above |
-| 3. | Substrate module: Traditional Contracts | The Traditional Contracts Substrate module will enable users to turn traditional contracts into smart contracts by attaching collateral to them and the algorithmic power of each party to click on "dispute" and activate the Judiciary module |
-| 4. | Substrate chain | Module Traditional Contracts will enable parties to agree to be adjudicated using the Judiciary Module, covering the court costs and the contract using the Escrow/Collateral module) |
-| 5. | Frontend| We will deliver a basic frontend to operate the new substrate modules |
+| **0b.** | Documentation |  **Inline documentation** of the code and a **tutorial** to spin up a Liberland nodes and test how the new functionality works. |
+| **0c.** | Testing and Testing Guide | Unit tests and testing guide. |
+| **0d.** | Docker | Dockerfile(s) that can be used to test the functionality in this milestone. |
+| 0e. | Article | Publish an **article**/workshop that explains the functioning of the judiciary and its impact on the Polkadot environment |
+| 1. | Substrate: Simple judiciary | Traditional plaintext contracts on chain that can be signed by parties and registered judges |
+| 2. | Substrate: Hybrid contracts | Expanding smart contract solutions to support plaintext clauses, courts as oracles, work with other pallets such as LLM |
+| 3. | Substrate: Default contracts | Develop default contracts for common business, rental and insurance uses |
+| 4. | Frontend| We will deliver a basic frontend to operate the new substrate modules |
 
 
 ### Milestone 2 Example — Additional features
@@ -284,15 +334,14 @@ This article discusses how cryptocurrency is being dealt with in family court ca
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
 | **0a.** | License | MIT |
-| **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
-| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 1. | Substrate module: Advanced Judiciary | We will create a Substrate module that will facilitate the adjudication of cases where the parties can't agree on anything more than having their case adjudicated in Liberland|
-| 2. | Substrate module: Judiciary Market | We will create a module that gathers on-chain data to facilitate the operation of the marketplace of judges |
-| 3. | Substrate module: Insurance | The Insurance Substrate module will enable users registered as insurers to pay collateral for others and to receive compensation based on a smart contract |
-| 4. | Substrate chain | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |
-| 5. | Frontend| Judiciary Marketplace and Insurance frontend |
-| 6. | Smart contracts: ... | We will setup smart contract templates for judiciary and insurance contracts.
+| **0b.** | Documentation | **Inline documentation** of the code and a **tutorial** to spin up a Liberland nodes and test how the new functionality works. |
+| **0c.** | Testing and Testing Guide | Unit tests and testing guide. |
+| **0d.** | Docker | Dockerfile(s) that can be used to test the functionality in this milestone.
+| 1. | Contract insurace |  Develop default insurance contracts that can be used as collateral provider in other contracts |
+| 2. | Substrate module: Judiciary Market | Module that gathers on-chain data to facilitate the operation of the marketplace of judges to be used as judges and jurisdictions in contracts|
+| 3. | Contract builder | Easy to use frontend interface to build hybrid contracts by adding pre-built smart and traditional clauses, define jurisdictions, handle collateral, handle dispute mode etc. |
+| 4. | Contract dispute appeals and edge cases| Develop default contract clauses that handle appeals and edge cases when in dispute mode |
+| 5. | Frontend| Judiciary Marketplace, Insurance and contract builder frontend |
 
 
 ## Future Plans
@@ -305,12 +354,15 @@ This article discusses how cryptocurrency is being dealt with in family court ca
 - After the success of our first Liberland Blockchain/ Polkadot conference, we will keep organizing more.
 
 ### Judiciary development future plans
-- Easy to use contract builder frondend that deploys a hybrid smart/traditional contract with defined juridistictions
+- Upgrade contract builder frondend that deploys a hybrid smart/traditional contract with defined juridistictions
 - Upgrade escrow functionality to adapt for use with insurance companies, allowing partial escrow etc
 - Integration with the company, land and asset registry pallets to allow full legal support for on chain assets
 - Setup default company hybrid contracts to support shareholders in preparation for the Liberland stock market
 - Bridge more tokens so that contracts can support BTC, USDT, ETH, DOT etc...
 - Instantiate a new chain with these functionalities as a parachain on Polkadot/Kusama
+- Citizenship and e-resident contracts
+- Delict law support
+
 
 ## Additional Information :heavy_plus_sign:
 
