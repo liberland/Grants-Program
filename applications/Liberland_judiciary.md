@@ -71,6 +71,10 @@ Major part of the project is refactoring current functionality into contracts th
 
 These are hybrid contracts, part code where code is law and part traditional text contract where law is law.
 
+The intention is to handle the pyhsical world in addition to  web3 tokens, for example with hybrid contracts to build a house
+where payments and disputes are handled on chain, and the judge can be the oracle deciding if the house has been built
+properly in case of dispute.
+
 Hybrid Contracts need to
  - Keep smart contract functionalities
  - Handle real-world data
@@ -91,6 +95,9 @@ Components of a hybrid contract
  - Collateral (can be another contract)
 
 Note that these contracts can basically be anything, we just outline the most common ones used in Liberland.
+
+##### TODO Example - Managed staking company
+##### TODO Example - Other company example
 
 ##### Example - citizenship contract
 
@@ -119,9 +126,6 @@ If the citizen is accused of breaking the law, the contract enters 'dispute mode
 If the court finds the citizen guilty, they may decide to order the citizen to pay for the damages. If the citizen cannot pay, the contract allows the court to unstake the citizens LLM to cover the costs.
 
 If for example the citizen was proven to be hacking the validator, the right to run a validator might be taken away.
-
-##### TODO Example - Managed staking company
-##### TODO Example - Other company example 
 
 #### Default 'dispute mode'
 
@@ -196,6 +200,67 @@ For example, jurisdiction clause, monthly payment if no dispute clause, cancella
 
 There are 90+ businesses in Liberland and the exact implementation details of the contract builder will be discovered in the process of migrating them on-chain.
 
+##### Example clauses
+###### Periodic payment clause
+Intended for contracts handling employment, renting, ongoing services, memberships etc...
+
+Tokens from party A will go to party B every time period (week, month, X number of blocks...) 
+as long as the contract is not in dispute mode.
+The tokens that are paid can come directly from the 'main' account of the person, which in Liberland is usually KYCd.
+
+###### Delict liability clause
+Intended to ensure payment in case of delict/crime as part of citizenship contract.
+
+Staked LLM from party A can be unstaked for the benefit of party B, triggerable only by Liberland judges/courts.
+
+###### Insurance provider clause
+Intended to handle third party insurance providers and guarantors.
+
+In case a payment needs to be made from party A to party B, and the party A is unable to pay, insurance wallet C will
+automatically pay. 
+
+Insurance wallet C can be insurance provider to many contracts and be liable for much more than its wallet balance.
+Choosing reliable insurance providers is important.
+
+###### Traditional plaintext clause
+Intended to handle real world conditions.
+
+Traditional plaintext clause contains text representing traditional human contract clauses relating to the real world such as 
+  - The house will be built
+  - The rented car must be returned undamaged
+  - Employee must come to work every day
+  - Murder is illegal
+
+###### Variables tracking clause
+Some clauses rely on data that needs to be inputted and behave differently based on that data/variables.
+
+For example, some project has milestones and some clause is triggered on each milestone, or
+
+employee can skip coming to work 10 days in a year without penalty, so every time this happens it can be recorded on the contract or
+
+as part of apartment rental contract, the utility costs vary so exact payment amount changes every month.
+
+Parties can change this data, but a dispute mode can be triggered if the parties disagree about the change.
+
+###### Pallet and assets integration
+Contracts may interact with other assets and pallets.
+
+Payment can be made in assets from the assets pallet.
+
+Companies can trigger payout of profits that goes to wallets proportionally based on held stock.
+
+###### Jurisdiction clause
+Intended to handle jurisdiction/judge selection.
+
+In case of dispute, the defined judge/court gets execution power over certain clauses instead of the parties themselves.
+
+###### Trigger dispute clause
+Intended to handle triggering dispute mode and start the judicial process.
+
+Disputes can be triggered either manually or when some algorithmic clause fails (for example payment isnt made). 
+It is possible to dispute only specific clauses and not the entire contract.
+When in dispute mode, some clauses behave differently. Dispute can be resolved either by both parties agreeing to resolve it
+or by the defined judge.
 
 ### Ecosystem Fit
 
