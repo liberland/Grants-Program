@@ -96,9 +96,6 @@ Components of a hybrid contract
 
 Note that these contracts can basically be anything, we just outline the most common ones used in Liberland.
 
-##### TODO Example - Managed staking company
-##### TODO Example - Other company example
-
 ##### Example - citizenship contract
 
 A citizen in Liberland is a person who signed and fulfills the criteria of the 'Citizenship contract'
@@ -262,6 +259,58 @@ It is possible to dispute only specific clauses and not the entire contract.
 When in dispute mode, some clauses behave differently. Dispute can be resolved either by both parties agreeing to resolve it
 or by the defined judge.
 
+### Technical Integration with other pallets
+
+#### Option 1: runtime asks contract what to do
+Quick but intermediary solution
+Instead of originating actions from the contract, we can originate from the runtime. Pallet then asks contract what should happen and executes.
+
+For example. We define a set of methods:
+
+```rust
+enum RuntimeAction {
+    Transfer(NativeOrAssetId, AccountId, AccountId, Balance),
+    TransferWithInsuranceFallback(NativeOrAssetId, AccountId, AccountId, AccountId, Balance),
+    SlashStakedLLM(AccountId, AccountId, Balance)
+}
+```
+
+Then instead of calling the smart-contract directly, judge calls pallet-contracts-registry.
+Contracts registry asks the smart-contract what to do, does some checks (whether the action is for contract signer) and executes it.
+
+Upsides:
+* No chain extensions
+* Info about judges, parties and signatures already present in the contracts-registry, so access control is easy
+* Smart contracts will be easy to write - just import one enum and return specific variant from a function.
+
+Downsides:
+* Smart contracts still won't be able to access any citizenship/llm/assets info, nor truly own assets, 
+so it's not possible for other people to innovate with stuff like DAOs or DeFi.
+
+
+#### Option 2: chain extension(s)
+
+The alleged security problem with current assets chain extensions is that smart-contracts can do anything in the assets pallet on behalf of whoever called the smart contract.
+But it doesn't have to be that way - we can simply restrict the chain extension to be only able to act on behalf of the contract.
+So we'd develop 2 Chain Extensions:
+1. Safe Assets Chain extension, which allows contracts to receive and transfer arbitrary pallet-assets, 
+but only those owned by them (or explicitly preapproved in assets pallet)
+2. Liberland extension, which:
+  * provides current info about staked LLM (& maybe identity & registries in the future)
+  * allows slashing staked LLM
+  * allows taking LLD & assets directly from someone elses account
+
+
+Upsides:
+* Flexible - allows arbitrary smart contracts to actually hold and manage assets. Opens lots of possibilities.
+
+Downsides:
+* Encoding/decoding all data passed between contracts and runtime must be done manually, there're 3 layers in between, it's much harder to get security right,
+* Smart contracts that use Chain Extensions are PITA to implement,
+* Will take much longer to implement.
+* The Liberland Chain Extension will need some additional layer of integration with contracts-registry, 
+to make sure that whatever contract is trying to do is done to someone that actually signed the contract.
+
 ### Ecosystem Fit
 
 #### Project Ecosystem Fit
@@ -392,7 +441,7 @@ This article discusses how cryptocurrency is being dealt with in family court ca
 
 ### Milestone 2 Example — Additional features
 
-- **Estimated Duration:** 1 month
+- **Estimated Duration:** 1-3 month
 - **FTE:**  1,5
 - **Costs:** 15,000 USD
 
@@ -407,6 +456,7 @@ This article discusses how cryptocurrency is being dealt with in family court ca
 | 3. | Contract builder | Easy to use frontend interface to build hybrid contracts by adding pre-built smart and traditional clauses, define jurisdictions, handle collateral, handle dispute mode etc. |
 | 4. | Contract dispute appeals and edge cases| Develop default contract clauses that handle appeals and edge cases when in dispute mode |
 | 5. | Frontend| Judiciary Marketplace, Insurance and contract builder frontend |
+| 6. | Integration with other pallets| We will choose either a simple (new pallet) or proper (chain extension) integration of contracts with other pallets and implement it |
 
 
 ## Future Plans
